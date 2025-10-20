@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter Example</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        #btn-inc {
+            background-color: #4CAF50;
+        }
+
+        #btn-dec {
+            background-color: #f44336;
+        }
+
+        #btn-reset {
+            background-color: #2196F3;
+        }
+    </style>
 </head>
 <body>
     <h1 id="counter-output"> counter : 0 </h1>
@@ -18,7 +40,7 @@
         var btnReset = document.getElementById("btn-reset");
         var counter = 0
 
-       btnInc.addEventListener("click",()=>{
+        btnInc.addEventListener("click",()=> {
             console.log('click test' + counter)
             counter = counter + 1
             counterOutput.innerText = "counter : " + counter
@@ -33,7 +55,6 @@
             counter = 0
             counterOutput.innerText = "counter : " + counter
         })
-
     </script>
 </body>
 </html>

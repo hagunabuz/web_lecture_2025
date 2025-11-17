@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Joseon100Years';
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Joseon100Years';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+
+.title {
+    font-size: 64px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    font-size: 32px;
+    margin: 10px;
+}
+
+header {
+    font-family: 'Pretendard';
+    display: flex;
+    padding: 16px;
+    /*background-color: yellow;*/
+    color: white;
+    justify-content: flex-end;
+}
+
+footer {
+    font-family: 'Pretendard';
+    display: flex;
+    padding: 16px;
+    /*background-color: black;*/
+    color: white;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    background-color: black;
+    color: white;
+}

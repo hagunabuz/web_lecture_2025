@@ -12,7 +12,7 @@ export default async function main() {
 
         console.log(e.key)
 
-        menuitems[currentIndex]
+        menuitems[currentIndex].classList.remove("select")
 
         if(e.key == "ArrowUp") {
             currentIndex--
@@ -22,9 +22,9 @@ export default async function main() {
             }
         }
 
-        else if(e,key == "ArrowDown") {
+        else if(e.key == "ArrowDown") {
             currentIndex++
-            currentIndex %-3
+            currentIndex %= 3
         }
 
         console.log(currentIndex)

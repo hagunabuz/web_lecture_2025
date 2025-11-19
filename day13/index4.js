@@ -30,7 +30,4 @@ export default async function main() {
         console.log(currentIndex)
         menuitems[currentIndex].classList.add('select')
     })
-
-
-
 }

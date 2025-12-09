@@ -22,11 +22,11 @@
     <script>
         var selCity = document.getElementById("sel-city")
         var txtResult = document.getElementById("txt-result")
-        var btnSelct = document.getElementById("btn-select")
+        var btnSelect = document.getElementById("btn-select")
 
-        btnSelct.addEventListener('click',()=>{
+        btnSelect.addEventListener('click', () => {
             console.log(selCity.value)
-            txtResult = selCity.value + "행 열차를 선택"
+            txtResult.innerText = selCity.value + "행 열차를 선택"
         })
     </script>
 </body>
